@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Reben_website/static/css/main.44e8f7bc.css",
-    "main.js": "/Reben_website/static/js/main.f4a8af96.js",
+    "main.js": "/Reben_website/static/js/main.e14da77a.js",
     "static/media/bg_video.mp4": "/Reben_website/static/media/bg_video.be816a3ae27141d04cb9.mp4",
     "static/media/videoApp.m4v": "/Reben_website/static/media/videoApp.2d2eac4109b47d613e70.m4v",
     "static/media/team5.jpg": "/Reben_website/static/media/team5.169c77c392153f313f43.jpg",
@@ -34,10 +34,10 @@
     "static/media/12.jpeg": "/Reben_website/static/media/12.cbb5925c2a77c5dcc020.jpeg",
     "index.html": "/Reben_website/index.html",
     "main.44e8f7bc.css.map": "/Reben_website/static/css/main.44e8f7bc.css.map",
-    "main.f4a8af96.js.map": "/Reben_website/static/js/main.f4a8af96.js.map"
+    "main.e14da77a.js.map": "/Reben_website/static/js/main.e14da77a.js.map"
   },
   "entrypoints": [
     "static/css/main.44e8f7bc.css",
-    "static/js/main.f4a8af96.js"
+    "static/js/main.e14da77a.js"
   ]
 }
