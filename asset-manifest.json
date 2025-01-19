@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Reben_website/static/css/main.44e8f7bc.css",
+    "main.js": "/Reben_website/static/js/main.f4a8af96.js",
+    "static/media/bg_video.mp4": "/Reben_website/static/media/bg_video.be816a3ae27141d04cb9.mp4",
+    "static/media/videoApp.m4v": "/Reben_website/static/media/videoApp.2d2eac4109b47d613e70.m4v",
+    "static/media/team5.jpg": "/Reben_website/static/media/team5.169c77c392153f313f43.jpg",
+    "static/media/3.png": "/Reben_website/static/media/3.be8fa3bbc44971c1fac6.png",
+    "static/media/about2.jpeg": "/Reben_website/static/media/about2.807b8b66a0547edd2b8d.jpeg",
+    "static/media/a2.jpeg": "/Reben_website/static/media/a2.957e806ede7029818548.jpeg",
+    "static/media/barcode.jpeg": "/Reben_website/static/media/barcode.bbdce910c940a34ce7cb.jpeg",
+    "static/media/1.jpeg": "/Reben_website/static/media/1.804703b66983198907fe.jpeg",
+    "static/media/market.jpeg": "/Reben_website/static/media/market.1fd15e5782c79c1850eb.jpeg",
+    "static/media/about1.jpeg": "/Reben_website/static/media/about1.681a255dee294fab2c06.jpeg",
+    "static/media/2.jpeg": "/Reben_website/static/media/2.c50a24a0b1c9febe809d.jpeg",
+    "static/media/a3.jpeg": "/Reben_website/static/media/a3.c42f5b1461d8ac090312.jpeg",
+    "static/media/4.jpg": "/Reben_website/static/media/4.cd2d18349c5a80bb3de7.jpg",
+    "static/media/2.jpg": "/Reben_website/static/media/2.c2559b78a36a1a6d6556.jpg",
+    "static/media/3.jpg": "/Reben_website/static/media/3.b4581bec4f006932fb46.jpg",
+    "static/media/project-2-1.jpg": "/Reben_website/static/media/project-2-1.a6385ae620dfabaaec60.jpg",
+    "static/media/logo-bg.png": "/Reben_website/static/media/logo-bg.8c652ede7ea4a2292558.png",
+    "static/media/5.jpg": "/Reben_website/static/media/5.b08733d2eac16f17dae7.jpg",
+    "static/media/10.jpeg": "/Reben_website/static/media/10.9c7d6c367e7b5f5f987a.jpeg",
+    "static/media/app_howI1.jpg": "/Reben_website/static/media/app_howI1.c365c94c92fbe6cb067c.jpg",
+    "static/media/6.jpg": "/Reben_website/static/media/6.6a594fca504ad90cd946.jpg",
+    "static/media/8.jpeg": "/Reben_website/static/media/8.3d887dfd6a34c54d0928.jpeg",
+    "static/media/logo.jpeg": "/Reben_website/static/media/logo.df205e03568393302921.jpeg",
+    "static/media/team-2.jpg": "/Reben_website/static/media/team-2.61bfc5fd92365209cd2e.jpg",
+    "static/media/team-1.jpg": "/Reben_website/static/media/team-1.ad671b933315e3be2eb7.jpg",
+    "static/media/team-3.jpg": "/Reben_website/static/media/team-3.812aa29b5690f81cd810.jpg",
+    "static/media/9.jpg": "/Reben_website/static/media/9.3a8e805a414befb43017.jpg",
+    "static/media/11.jpeg": "/Reben_website/static/media/11.84041f98b58c43e7fb9d.jpeg",
+    "static/media/7.jpeg": "/Reben_website/static/media/7.9ff0b6ebab459d41edfb.jpeg",
+    "static/media/12.jpeg": "/Reben_website/static/media/12.cbb5925c2a77c5dcc020.jpeg",
+    "index.html": "/Reben_website/index.html",
+    "main.44e8f7bc.css.map": "/Reben_website/static/css/main.44e8f7bc.css.map",
+    "main.f4a8af96.js.map": "/Reben_website/static/js/main.f4a8af96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44e8f7bc.css",
+    "static/js/main.f4a8af96.js"
+  ]
+}
