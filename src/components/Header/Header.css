@@ -1,0 +1,75 @@
+
+ .animate__animated.animate__bounce,
+ .animate__heartBeat {
+   --animate-duration: 3s; /* مدة الحركة */
+   animation-duration: 4s;
+   animation-delay: 1s;
+ }
+.animate__heartBeat{
+  animation-iteration-count: infinite;
+}
+
+body, html, .header {
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  height: 100vh;
+  width: 100%; 
+  background-size: cover;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.header .bg-video{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+}
+.header video{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: -1;
+}
+.header-text {
+  text-align: center; /* توسيط النص */
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 10px;
+  color: #FFF;
+  max-width: 80%; /* لتحديد عرض مناسب للنص */
+  
+}
+
+.header-text h3 {
+  font-size: 5rem; 
+  margin-bottom: 10px;
+  font-weight: bold;
+
+}
+
+.header-text p {
+  font-size: 3rem;
+  margin: 0;
+  line-height: 1.5;
+  font-weight: 700;
+  font-family: "El Messiri", serif;
+}
+
+@media screen and (max-width: 768px){
+    
+  .header-text h3 {
+    font-size: 4rem; 
+  }
+  
+  .header-text p {
+    font-size: 2rem;
+  
+  }
+}

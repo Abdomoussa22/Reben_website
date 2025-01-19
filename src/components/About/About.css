@@ -1,0 +1,74 @@
+
+.about {
+    background-color: #f8f8f8; /* لون الخلفية */
+    padding: 20px 0;
+    margin-top: 3rem;
+  }
+  
+  .about-title {
+    text-align: center;
+    margin: 1rem 0px;
+    color: var(--primary);
+  }
+  .about-title h2{
+    font-weight: bold;
+  }
+  .about-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    gap: 1rem;
+    flex-wrap: wrap; /* للتجاوب على الشاشات الأصغر */
+  }
+  
+  .about-data img {
+    max-width: 100%;
+    width: 500px; /* تحديد نفس الحجم */
+    height: 300px; /* تحديد نفس الحجم */
+    object-fit: cover; /* لضمان تناسب الصور */
+    border-radius: 10px; /* حواف ناعمة */
+    transition: transform 0.3s ease; /* إضافة تأثير الحركة */
+  }
+  
+  .about-data img:hover {
+    transform: scale(1.05); /* تكبير عند التمرير */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* إضافة ظل */
+  }
+  
+  .about-text-con {
+    text-align: right;
+    width: 500px; /* نفس عرض الصورة */
+  }
+  
+  .about-text-con h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--primary);
+  }
+  
+  .about-text-con p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+  }
+  
+  @media (max-width: 768px) {
+    .about-data {
+      flex-direction: column; /* ترتيب عمودي للشاشات الأصغر */
+      gap: 1.5rem;
+    }
+  
+    .about-text-con {
+      width: 100%; /* لتناسب العرض */
+    }
+    .about-text-con h3 {
+        font-size: 18px;
+      }
+      
+      .about-text-con p {
+        font-size: 13px;
+      }
+  }
+  

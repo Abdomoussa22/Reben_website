@@ -1,0 +1,181 @@
+/* الفوتر الرئيسي */
+.footer {
+    background: linear-gradient(to bottom, #9F1211, #D62A28, #FF4E4C);
+    color: #fff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .footer-section {
+    flex: 1 1 calc(33.333% - 20px);
+    min-width: 250px;
+    gap:10px,
+  }
+  .footer-section .footer-badges img{
+    width: 168px;
+    border-radius: 10px;
+  }
+  .footer-section p{
+    font-size: 18px;
+    margin: 15px 0 ;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  .footer-container .apps{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-container .apps p{
+    font-size: 18px;
+  }
+  .footer-container .apps a{
+    font-size: 18px;
+  }
+  .footer-container .apps .app-links li{
+    font-size: 30px;
+  }
+  /* نموذج الاشتراك */
+  .newsletter-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .newsletter-form input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+
+  }
+  
+  .newsletter-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #c91413;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #9f1211;
+  }
+  
+  /* روابط التطبيقات */
+  .app-links a img {
+    width: 120px;
+    margin-right: 10px;
+  }
+  
+  .footer-badges img {
+    width: 80px;
+    margin: 5px;
+  }
+  
+  /* الجزء السفلي */
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid #fff;
+    padding-top: 15px;
+  }
+  
+  .footer-links,
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer-links a ,  .social-links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .social-links a{
+    font-size: 25px;
+  }
+  .footer-links a:hover,
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  .my-logo{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  /* استجابة الشاشات الصغيرة */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-section {
+      flex: 1 1 100%;
+      margin-bottom: 20px;
+    }
+    .footer-section h3{
+      font-size: var(--font-size-small-device-title);
+    }
+    .app-links a img {
+      margin-bottom: 10px;
+    }
+    .footer-section .footer-badges img{
+      width: 130px;
+    }
+    .footer-container .apps p , .footer-container .apps a ,  .footer-section p{
+      font-size: var(--font-size-small-device);
+    }
+    .footer-container .apps .app-links li{
+      font-size: var(--font-size-small-device-title);
+    }
+    .newsletter-form input {
+      padding: 7px;
+  
+    }
+    
+    .newsletter-form button {
+      padding: 7px 15px;
+    }
+    /* روابط التطبيقات */
+  .app-links p{
+    width: 120px;
+    margin-right: 10px;
+  }
+  .footer-links a ,  .social-links a{
+    font-size: var(--font-size-small-device);
+  }
+  .social-links a{
+    font-size: 18px;
+  }
+  }
+  

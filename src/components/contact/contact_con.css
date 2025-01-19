@@ -1,0 +1,121 @@
+#contact{
+    background-color: hsl(0, 0%, 97%); /* لون الخلفية */
+    padding: 50px 0;
+}
+#contact .contact-title{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+#contact .contact-title h2{
+    color: var(--primary);
+        font-weight: bold;
+}
+#contact .contact-title h5{
+    color: #A4A4A4;
+}
+.contact-container{
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+.contact-options{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contact-option{
+    background :var(--color-bg-variant);
+    text-align: center;
+    padding: 0.2rem;
+    border-radius: 1.2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    color: var(--primary);
+}
+.contact-option:hover{
+    background: linear-gradient(to top, #9F1211, #D62A28, #e93633);
+    color: #fff;
+    border-color:#fff ;
+    transform: scale(1.1);
+}
+.contact-option h4,
+.contact-option h5{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: var(--font-family);
+    direction: ltr;
+}
+.contact-option-icon{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+.contact-option a{
+    display: inline-block;
+    font-size: 1rem;
+    color: var(--primary);
+    font-family: var(--font-family);
+}
+.contact-option:hover.contact-option a{
+    color: #fff;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+#contact form input,textarea{
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    background: #fff;
+    outline: none;
+    padding: 1rem;
+    color: black;
+}
+#contact form input::placeholder , #contact textarea::placeholder{
+    color: var(--primary);
+    font-family: var(--font-family);
+}
+#contact form button{
+background: var(--primary);
+    color: #fff;
+    font-family: var(--font-family);
+    outline: none;
+    border: none;
+}
+#contact form button:hover{
+    background-color: transparent;
+    border: 1px solid var(--secondary);
+    color: var(--primary);
+}
+/*#############MEDIA QUIRES (MEDIUM DEVICES)###############*/
+@media screen and (max-width: 1024px){
+    .contact-container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    #contact .contact-title h2{
+        font-size: 1.3rem;
+    }
+    #contact .contact-title h5{
+        font-size: 13px;
+    }
+    .contact-option h4,
+.contact-option h5{
+    font-size: 13px;
+}
+#contact form a , #contact form button{
+    font-size: 13px;
+}
+#contact form input::placeholder , #contact textarea::placeholder{
+    font-size: 13px;
+}
+}
+/*#############MEDIA QUIRES (SMALL DEVICES)###############*/
+@media screen and (max-width: 600px){
+    .contact-container{
+       width: var(--container-width-sm);
+    }
+}

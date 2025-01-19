@@ -1,0 +1,41 @@
+/* تخصيص Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #9F1211, #D62A28, #FF4E4C);
+
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background:  var(--secondary);
+  }
+  
+  /* زر العودة للأعلى */
+  .scroll-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: linear-gradient(to bottom, #9F1211, #D62A28, #FF4E4C);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    z-index: 3;
+  }
+  
+  .scroll-top-btn:hover {
+    background-color: var(--secondary);
+    transform: scale(1.1);
+  }

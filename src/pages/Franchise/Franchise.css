@@ -1,0 +1,191 @@
+/* القسم الرئيسي */
+.franchise-section {
+  padding: 50px 20px;
+  background: #f8f9fa;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* العنوان الرئيسي */
+.franchise-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.franchise-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #9f1211;
+  margin-bottom: 20px;
+}
+
+.franchise-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* التفاصيل */
+.franchise-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.franchise-support,
+.franchise-advantages {
+  flex: 1;
+  max-width: 45%;
+  text-align: right;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #9f1211;
+  margin-bottom: 20px;
+}
+
+.support-list,
+.advantages-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* المحتوى الرئيسي */
+.franchise-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.franchise-image-container {
+  flex: 1;
+  max-width: 500px;
+  text-align: center;
+}
+
+.franchise-image {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.franchise-info {
+  text-align: center;
+  flex: 1;
+  max-width: 500px;
+}
+
+.barcode-container {
+  margin-bottom: 20px;
+}
+
+.barcode-image {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.franchise-link {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background: #9f1211;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.franchise-link:hover {
+  background: #c71c1c;
+}
+
+/* استجابة الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .franchise-title {
+    font-size: 2rem;
+  }
+
+  .franchise-description {
+    font-size: 1rem;
+  }
+
+  .franchise-details {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .franchise-support,
+  .franchise-advantages {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .franchise-content {
+    flex-direction: column;
+  }
+
+  .franchise-image-container {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .franchise-image {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .barcode-container {
+    text-align: center;
+  }
+
+  .franchise-link {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .franchise-title {
+    font-size: 1.8rem;
+  }
+
+  .franchise-description {
+    font-size: 0.9rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .support-list,
+  .advantages-list {
+    font-size: 0.9rem;
+    text-align: right;
+    padding-left: 15px;
+  }
+
+  .franchise-image {
+    max-width: 100%;
+  }
+
+  .barcode-image {
+    width: 150px;
+  }
+
+  .franchise-link {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}

@@ -1,0 +1,170 @@
+/* القسم الرئيسي */
+#portfolio {
+  margin-top: 3rem;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* العنوان */
+#portfolio .title-sec h2 {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+#portfolio .title-sec .h5 {
+  font-size: 34px;
+  color: var(--primary);
+}
+
+/* تصميم الكارد */
+.portfolio-item {
+  background: linear-gradient(to top, #9F1211, #D62A28, #e93633);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 300px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  border-color: var(--secondary);
+}
+
+/* الصورة داخل الكارد */
+.portfolio-item-image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+  height: 60%; /* تعديل حجم الصورة */
+}
+
+.portfolio-item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.portfolio-item:hover .portfolio-item-image img {
+  transform: scale(1.1);
+}
+
+/* النص داخل الكارد */
+.text-bt {
+  margin-top: 1%;
+  color: #fff;
+}
+
+.text-bt .btn-contact {
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid var(--primary);
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+.portfolio-item:hover .btn-contact {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.portfolio-item h3 {
+  margin: 1rem 0 1rem;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.portfolio-item:hover.portfolio-item h3 {
+  color: var(--primary);
+}
+/* تصميم السلايدر */
+.swiper {
+  padding: 2rem 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide .portfolio-item {
+  width: 100%;
+
+}
+
+/* الأسهم */
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--primary);
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 18px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: var(--secondary);
+  transform: scale(1.2);
+}
+
+/* النقاط */
+.swiper-pagination-bullet {
+  background-color: var(--primary);
+  opacity: 0.7;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--secondary);
+  opacity: 1;
+}
+
+/* استجابة التصميم */
+@media screen and (max-width: 1024px) {
+  #portfolio .title-sec .h5 {
+    font-size: 24px;
+  }
+
+  .portfolio-item h3 {
+    font-size: 20px;
+  }
+
+  .portfolio-item {
+    height: 350px;
+  }
+
+  .portfolio-item-image {
+    height: 55%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .swiper-slide {
+    flex-direction: column;
+  }
+
+  .portfolio-item {
+    width: 100%;
+    max-width: 250px;
+    height: 300px;
+  }
+
+  .portfolio-item-image {
+    height: 50%;
+  }
+
+  #portfolio .title-sec h5 {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,158 @@
+/* CSS File: Tenants.css */
+.tenants {
+    background: #f7f7f7;
+    padding: 50px 20px;
+  }
+  
+  .tenants h1 {
+    color: var(--primary);
+    text-align: right;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .tenants-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .tenants-text {
+    flex: 1 1 45%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 40px 20px;
+    font-size: 1rem;
+    text-align: right;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+    left: -4.3rem;
+  }
+  
+  .tenants-text h3 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.6;
+    text-align: right;
+  }
+  
+  .tenants-img {
+    flex: 1 1 45%;
+    max-width: 500px;
+  }
+  
+  .tenants-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+  }
+
+  .tenants-img img:hover{
+    transform: scale(1.1);
+  }
+  
+  .tenants .info-container {
+    text-align: center;
+    padding: 70px 20px;
+  }
+  
+  .tenants .info-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary);
+  }
+  
+  .tenants .more-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .tenants .app-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+    background: var(--primary);
+    color: #fff;
+    transition: background 0.3s ease;
+    transition: var(--transition);
+  }
+  
+  .tenants .app-button:hover {
+    background: var(--secondary);
+  }
+
+  .tenants .partners-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .tenants .partner-item {
+    width: 170px;
+    height: 170px;
+    background-color:var(--primary) ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tenants .partner-item img{
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 50%;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .tenants-container {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  
+    .tenants-text,
+    .tenants-img {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  
+    .tenants-text {
+      padding: 30px 15px;
+      font-size: 0.9rem;
+      left: 0;
+    }
+  
+    .tenants .info-title {
+      font-size: 1.2rem;
+    }
+  
+    .tenants .app-button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .tenants h1 {
+      font-size: 2rem;
+    }
+  
+    .tenants-text h3 {
+      font-size: 1rem;
+    }
+  
+    .info-title {
+      font-size: 1rem;
+    }
+  }
+  
